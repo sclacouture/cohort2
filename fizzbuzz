@@ -1,0 +1,31 @@
+Fizzbuzz.js
+console.log("Fizzbuzz")
+
+for ( let i =  0; i <= 100; i++) {
+    if (i % 3 == 0 && i % 5 == 0) {
+       console.log("fizzbuzz");
+    }
+    else if ( i % 3 == 0) {
+        console.log("fizz");
+    }
+    else if (i % 5 == 0 ) {
+        console.log ("buzz");
+    }
+    else console.log(i);
+}
+
+for ( let i =  0; i <= 101; i++) {
+    let output = "";
+    if (i % 3 == 0) {
+       output = output + "Fizz";
+    }
+    if (i % 5 == 0) {
+        output = output + "Buzz";
+    }
+    if (output == "" ) {
+        output = i;
+    }
+    else console.log(output);
+}
+
+// Cuando se hacen programas al futuro, hay que tener presente que todo se puede cambiar
